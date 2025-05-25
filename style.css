@@ -1,0 +1,57 @@
+
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.pexels.com/photos/3014826/pexels-photo-3014826.jpeg?cs=srgb&dl=pexels-technobulka-3014826.jpg&fm=jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #2c2c2c;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(50, 50, 50, 0.8);
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.658);
+  padding: 40px;
+  max-width: 1000px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(200, 200, 200, 0.8);
+  margin-top: 40px;
+}
